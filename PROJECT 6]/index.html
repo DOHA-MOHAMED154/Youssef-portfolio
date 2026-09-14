@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <!-- تأكد أن اسم ملف الـ CSS هو style.css وموجود في نفس الفولدر -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- لينك مكتبة Font Awesome للأيقونات -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+   <!-- Navbar -->
+<nav>
+    <div class="nav-container">
+
+        <div class= "logo" data-aos="zoom-in" data-aos-duration="1500">
+            <span>Youssef Mohammed</span>
+        </div>
+
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                <a href="#home">Home</a>
+            </div>
+
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                <a href="#about">About</a>
+            </div>
+
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                <a href="#skills">Skills</a>
+            </div>
+
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                <a href="#service">Service</a>
+            </div>
+
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+    </div>
+
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="home">
+        <div class="main-container">
+            <!-- تم تعديل اسم الكلاس هنا من images إلى image ليطابق الـ CSS -->
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="image/youssef33.png" alt="Youssef Mohammed">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                    Hey I’m
+                    <span>Youssef Mohammed</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    I’m a
+                    <span class="typewriter-text"></span>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum debitis excepturi ad earum.
+                    Iure, quod voluptas? Modi nam et minima animi, excepturi soluta ex voluptas sapiente, beatae
+                    earum ea inventore tempore libero.
+                </p>
+                <div class="social-links">
+    <a href="https://www.instagram.com/youssefro4dyy" aria-label="Instagram"
+       data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="https://www.facebook.com/share/1GuUGKPB8e" aria-label="Facebook"
+       data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+        <i class="fa-brands fa-facebook" ></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/youssef-mohammed-3b0541373" aria-label="LinkedIn"
+       data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+</div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section start -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="image/youssef333.png" alt="Youssef Mohammed">
+                </div>
+                <div class="right">
+                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">I’m Youssef Mohammed, a Web Developer</div>
+                    <p  data-aos="flip-down" data-aos-duration="1200" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus,
+                        quisquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sapiente iure dolorem quibusdam ex atque laborum sed voluptatem enim impedit laudantium saepe dolorum expedita sequi excepturi molestiae, eligendi in rem. ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.
+                        Doloribus, quisquam.
+                     </p>
+                    <div class="button">
+                        <button>Download CV</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+  <div class="content">
+
+    <div class="title">
+      <span data-aos="fade-up" data-aos-duration="1200">My Skills</span>
+    </div>
+
+    <div class="skills-details">
+
+      <!-- الجزء الشمال -->
+      <div class="text">
+        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+          Skills Reflects Our Knowledge
+        </div>
+
+        <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptas, voluptate. Doloribus, quisquam.
+        </p>
+
+        <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+          <div class="num">2</div>
+          <div class="exp">
+            Years Of <br>
+            Experience
+          </div>
+        </div>
+      </div>
+
+      <!-- الجزء اليمين -->
+      <div class="boxes">
+
+        <div class="box">
+          <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+          <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+        </div>
+
+        <div class="box">
+          <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+          <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+        </div>
+
+        <div class="box">
+          <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">JavaScript</div>
+          <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">70%</div>
+        </div>
+
+        <div class="box">
+          <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">PHP</div>
+          <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">60%</div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200">
+                <span>My Services</span>
+            </div>
+            <div class="boxes">
+
+                <div class="box" data-aos=" fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Development</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus,
+                        quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.
+                        Doloribus, quisquam. </p>
+                </div>
+
+
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Graphic Design</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus,
+                        quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.
+                        Doloribus, quisquam. </p>
+                </div>
+
+
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic">Digital Marketing</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus,
+                        quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.
+                        Doloribus, quisquam. </p>
+                </div>
+
+
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                    <div class="icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="topic">Icon Design</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus,
+                        quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.
+                        Doloribus, quisquam. </p>
+                </div>
+
+
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                    <div class="icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="topic">Photography</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus,
+                        quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.
+                        Doloribus, quisquam. </p>
+                </div>
+
+
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                    <div class="icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <div class="topic">Apps Development</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus,
+                        quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.
+                        Doloribus, quisquam. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos=" fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
+            <div class="contact-details">
+                
+                <div class="text">
+                    <div class="topic " data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Projects?</div>
+                    <p class="change-color"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus,
+                        quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.
+                        Doloribus, quisquam. </p>
+                    <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                        <button>Let's Chat</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="text">
+            <span>Created By </span><a href="#" style="color: #ffffff;">Youssef22</a>
+            <span> | 2026 All Rights Reserved</span>
+        </div>
+    </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({offest:0});
+  </script>
+
+    <!-- أضف ملفات الـ JavaScript هنا إذا كانت لديك -->
+    <script>
+        function hamburg() {
+            document.querySelector('.dropdown').style.transform = "translateY(0)";
+        }
+        function cancel() {
+            document.querySelector('.dropdown').style.transform = "translateY(-500px)";
+        }
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- السطر ده بيربط ملف الـ js بتاعك اللي إحنا لسه مصلحينه -->
+    <script src="script.js"></script>
+</body>
+
+</html>
